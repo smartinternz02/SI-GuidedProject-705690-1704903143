@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Web Series</name>
+   <tag></tag>
+   <elementGuidId>44db8f56-c78e-4f0f-b61c-2def503aca0d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='appContainer']/nav/div[2]/a[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>af179a34-f9c3-4341-86a0-ab41469800a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> AppNavbar_navItem___QI5L</value>
+      <webElementGuid>4837843e-fa4c-49b3-b4f9-92ef9f7baf3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>appnavbar_menuitem_webseries</value>
+      <webElementGuid>7a38eea7-0416-4e25-87c0-a9c4baab3624</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Web Series</value>
+      <webElementGuid>08911b51-78a6-42ac-8462-9882be77620e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;appContainer&quot;)/nav[@class=&quot;AppNavbar_navContainer__Pghbj&quot;]/div[@class=&quot;AppNavbar_navbar___zLKe&quot;]/a[@class=&quot;normalisedLink&quot;]/span[@class=&quot;AppNavbar_navItem___QI5L&quot;]</value>
+      <webElementGuid>0270cbf5-d74d-423d-956e-71fc9bc72c8c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='appContainer']/nav/div[2]/a[3]/span</value>
+      <webElementGuid>4ffb545e-7aa8-42ea-bf8f-d02882c0bce2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]/span</value>
+      <webElementGuid>c6c7e5e1-4887-497a-b7e4-2ea5ec96572f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Web Series' or . = 'Web Series')]</value>
+      <webElementGuid>d82f3d02-4d2c-4e1e-8f67-a31247361e88</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_All Mobile Phones</name>
+   <tag></tag>
+   <elementGuidId>af2581e7-c56b-40bd-8637-a59e937a84f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;hmenu-content&quot;]/ul[8]/li[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.hmenu.hmenu-visible.hmenu-translateX > li:nth-of-type(3) > a.hmenu-item</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2e4b7f9c-96d6-4dca-8f5f-cbd27b75ba38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/gp/browse.html?node=1389401031&amp;ref_=nav_em_sbc_mobcomp_all_mobiles_0_2_8_2</value>
+      <webElementGuid>b72e1bbe-4baa-4ef1-b654-1fa47b068461</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hmenu-item</value>
+      <webElementGuid>dbb3bc72-fb0c-4431-b641-af2470e05a2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All Mobile Phones</value>
+      <webElementGuid>3dd12ca7-9050-42a1-a53b-d6fe81e08e27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hmenu-content&quot;)/ul[@class=&quot;hmenu hmenu-visible hmenu-translateX&quot;]/li[3]/a[@class=&quot;hmenu-item&quot;]</value>
+      <webElementGuid>4ae8029f-a139-402e-8998-1dfafd15c3ce</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='hmenu-content']/ul[8]/li[3]/a</value>
+      <webElementGuid>b3ef1213-4124-401d-93be-4ac743cbc8dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'All Mobile Phones')]</value>
+      <webElementGuid>fe2a4bdd-78af-4b0d-b219-af113f45c6a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/gp/browse.html?node=1389401031&amp;ref_=nav_em_sbc_mobcomp_all_mobiles_0_2_8_2')]</value>
+      <webElementGuid>d6e98c7b-5674-452f-b097-cf4666d5947f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul[8]/li[3]/a</value>
+      <webElementGuid>3c80c50f-d11a-4612-aec5-5560de302210</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/gp/browse.html?node=1389401031&amp;ref_=nav_em_sbc_mobcomp_all_mobiles_0_2_8_2' and (text() = 'All Mobile Phones' or . = 'All Mobile Phones')]</value>
+      <webElementGuid>70a9b416-94e9-42ba-ae0e-e36e1c0e9853</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

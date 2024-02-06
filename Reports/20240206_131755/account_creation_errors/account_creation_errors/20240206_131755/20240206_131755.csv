@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+account_creation_errors,,,,06-02-2024 13:18:10,06-02-2024 13:18:10,0.576s,ERROR
+,,,,,,,
+Test Cases/account_creation/invalid_name,,,,06-02-2024 13:18:10,06-02-2024 13:18:10,0.006s,ERROR
+,,,,,,,
+Test Cases/account_creation/invalid_phone_number,,,,06-02-2024 13:18:10,06-02-2024 13:18:10,0.000s,ERROR
+,,,,,,,
+Test Cases/account_creation/no_password,,,,06-02-2024 13:18:10,06-02-2024 13:18:10,0.005s,ERROR
+,,,,,,,
+Test Cases/account_creation/phone_number_exists001,,,,06-02-2024 13:18:10,06-02-2024 13:18:10,0.015s,ERROR

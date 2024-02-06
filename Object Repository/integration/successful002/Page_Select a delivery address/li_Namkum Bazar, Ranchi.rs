@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Namkum Bazar, Ranchi</name>
+   <tag></tag>
+   <elementGuidId>918740f3-acca-4b29-8d16-bb68d2352ec2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='address-ui-widgets-enterAddressFormContainer']/div[7]/div/div[12]/ul/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.autoOp</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>5eb3a02b-2aa2-4a85-9586-610b4057e898</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>autoOp</value>
+      <webElementGuid>b2674ac1-d99e-40e2-a135-0639db425f8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Namkum Bazar, Ranchi</value>
+      <webElementGuid>a6090373-addf-4f3f-9d5b-78960e61f578</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;address-ui-widgets-enterAddressFormContainer&quot;)/div[@class=&quot;a-row&quot;]/div[@class=&quot;a-input-text-group a-spacing-medium a-spacing-top-medium&quot;]/div[@class=&quot;a-section a-spacing-base adddress-ui-widgets-form-field-container address-ui-widgets-field-container-fixed-height&quot;]/ul[@class=&quot;autoCompleteResult autoCompleteScroll&quot;]/li[@class=&quot;autoOp&quot;]</value>
+      <webElementGuid>b73eda72-61bd-4a00-9f49-587d286f5369</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='address-ui-widgets-enterAddressFormContainer']/div[7]/div/div[12]/ul/li</value>
+      <webElementGuid>07b4332d-801a-406f-b6d3-381383fd4503</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li</value>
+      <webElementGuid>fd0d2a13-12fd-446c-a8a7-296f39d9be8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Namkum Bazar, Ranchi' or . = 'Namkum Bazar, Ranchi')]</value>
+      <webElementGuid>c7b3012d-021e-40d1-819a-f84381e057eb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

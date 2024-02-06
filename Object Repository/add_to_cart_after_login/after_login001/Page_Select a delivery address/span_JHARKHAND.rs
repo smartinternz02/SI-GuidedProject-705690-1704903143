@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_JHARKHAND</name>
+   <tag></tag>
+   <elementGuidId>50d832d3-418c-454f-b681-ac40eced3156</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#address-ui-widgets-enterAddressStateOrRegion > span.a-button-inner > span.a-button-text.a-declarative > span.a-dropdown-prompt</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='address-ui-widgets-enterAddressStateOrRegion']/span/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>686498f0-bc7c-4f11-8796-90d6e7ebaa08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-dropdown-prompt</value>
+      <webElementGuid>bb79e0e6-3893-4e8c-a69d-cacf9ac7434f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>JHARKHAND</value>
+      <webElementGuid>a4946001-42f0-4625-b727-9aaaf25c3c04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;address-ui-widgets-enterAddressStateOrRegion&quot;)/span[@class=&quot;a-button-inner&quot;]/span[@class=&quot;a-button-text a-declarative&quot;]/span[@class=&quot;a-dropdown-prompt&quot;]</value>
+      <webElementGuid>a05a46d5-de5e-4c63-840e-2496a8760da3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='address-ui-widgets-enterAddressStateOrRegion']/span/span/span</value>
+      <webElementGuid>9520a910-5d54-4505-b62f-f9f222aef336</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/span/span/span/span/span</value>
+      <webElementGuid>81bdcf98-3bb7-4609-92a7-4501e8c972b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'JHARKHAND' or . = 'JHARKHAND')]</value>
+      <webElementGuid>d5b46997-1fd8-402b-b43b-8f619ef276d8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

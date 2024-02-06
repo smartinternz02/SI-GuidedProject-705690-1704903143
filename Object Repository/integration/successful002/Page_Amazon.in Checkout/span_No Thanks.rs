@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_No Thanks</name>
+   <tag></tag>
+   <elementGuidId>86a223b4-1c9d-4c96-890c-186ebbe68fed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='prime-interstitial-nothanks-button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#prime-interstitial-nothanks-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3b6c7242-6ef5-4ce6-a761-b7408cbcc585</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>prime-interstitial-nothanks-button</value>
+      <webElementGuid>30143fc5-0a29-4923-a4bc-e7439a4341e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>prime-action-button primeEvent a-button-text prime-aui-signup-text</value>
+      <webElementGuid>a9521258-8e50-4d20-83de-4d9cf88006ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>ue.count('in_updp_ft_PIP_Main_UPDP_PrimeFreeTrialOffer_OrderAgnostic_no_thanks_click', 1)</value>
+      <webElementGuid>0c9de24c-6683-41d5-b93b-c61ebfbd242d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                             No Thanks
+                                         </value>
+      <webElementGuid>0b6d600e-8106-4a91-b413-d78c7e435939</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;prime-interstitial-nothanks-button&quot;)</value>
+      <webElementGuid>86b8d65c-8233-45dc-8e70-5554c712936c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='prime-interstitial-nothanks-button']</value>
+      <webElementGuid>d8a2e34a-245c-471d-94f9-6674bd0c1b40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='primeAutomaticPopoverAdContent']/div/div/div/span/span/span/span</value>
+      <webElementGuid>df7530ca-fbdb-44ca-a8d9-b468f58ab31c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/div/span/span/span/span</value>
+      <webElementGuid>68231945-4aba-4c68-9164-0e38f6a1bb33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'prime-interstitial-nothanks-button' and (text() = '
+                                             No Thanks
+                                         ' or . = '
+                                             No Thanks
+                                         ')]</value>
+      <webElementGuid>d5a83dcb-163d-406a-9bce-cd95b100a26a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

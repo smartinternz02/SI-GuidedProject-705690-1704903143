@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>b_Hello, sign in</name>
+   <tag></tag>
+   <elementGuidId>417c4faf-6b91-45ec-80de-4e9218b36335</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='hmenu-customer-name']/b</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#hmenu-customer-name > b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>9cd10f29-45f0-460e-94ce-25c371d8f9be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hello, sign in</value>
+      <webElementGuid>494e93c1-4572-4a59-882c-e9864947d3ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hmenu-customer-name&quot;)/b[1]</value>
+      <webElementGuid>72ae6876-9fd9-4857-b1f8-ea1edce077a5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='hmenu-customer-name']/b</value>
+      <webElementGuid>1bb872f5-499e-4ffd-9228-ea0c155cd2b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/b</value>
+      <webElementGuid>2cc8a651-cc07-4575-86f8-e4f613cd79e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//b[(text() = 'Hello, sign in' or . = 'Hello, sign in')]</value>
+      <webElementGuid>d957df24-bf44-4831-ad56-e3319f84debf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
