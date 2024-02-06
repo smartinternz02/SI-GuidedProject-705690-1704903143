@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login_discover001,Chrome 121.0.0.0,,,06-02-2024 20:01:00,06-02-2024 20:04:33,3m - 33.147s,PASSED
+,,,,,,,
+Test Cases/discover/discover007,Chrome 121.0.0.0,,,06-02-2024 20:01:00,06-02-2024 20:01:58,57.439s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,06-02-2024 20:01:01,06-02-2024 20:01:21,20.345s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,06-02-2024 20:01:21,06-02-2024 20:01:23,1.530s,PASSED
+"click(findTestObject(""Object Repository/discover/discover007/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon miniTV""))",Chrome 121.0.0.0,,,06-02-2024 20:01:23,06-02-2024 20:01:27,4.809s,PASSED
+"click(findTestObject(""Object Repository/discover/discover007/Page_Amazon miniTV - Watch Free Web Series,_86fafa/span_Imported""))",Chrome 121.0.0.0,,,06-02-2024 20:01:27,06-02-2024 20:01:29,1.335s,PASSED
+"click(findTestObject(""Object Repository/discover/discover007/Page_Watch Dubbed Web Series, Korean Drama,_0fb818/span_Web Series""))",Chrome 121.0.0.0,,,06-02-2024 20:01:29,06-02-2024 20:01:30,1.663s,PASSED
+"click(findTestObject(""Object Repository/discover/discover007/Page_Watch Latest Web Series Online for Fre_49d131/span_Movies""))",Chrome 121.0.0.0,,,06-02-2024 20:01:30,06-02-2024 20:01:32,1.400s,PASSED
+"click(findTestObject(""Object Repository/discover/discover007/Page_Watch Popular Movies  Short Films Onli_56b9b2/span_Romance""))",Chrome 121.0.0.0,,,06-02-2024 20:01:32,06-02-2024 20:01:33,0.967s,PASSED
+"click(findTestObject(""Object Repository/discover/discover007/Page_Watch Trending Romantic Web Series  Mo_a46f5a/span_Comedy""))",Chrome 121.0.0.0,,,06-02-2024 20:01:33,06-02-2024 20:01:34,1.110s,PASSED
+"click(findTestObject(""Object Repository/discover/discover007/Page_Watch Comedy Web Series, Short Films  _4c3a92/img_AppNavbar_mShopIcon__4UsHr""))",Chrome 121.0.0.0,,,06-02-2024 20:01:34,06-02-2024 20:01:40,6.276s,PASSED
+"click(findTestObject(""Object Repository/discover/discover007/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell""))",Chrome 121.0.0.0,,,06-02-2024 20:01:40,06-02-2024 20:01:44,4.359s,PASSED
+"click(findTestObject(""Object Repository/discover/discover007/Page_Amazon.in CrossShop1/a_Mobiles""))",Chrome 121.0.0.0,,,06-02-2024 20:01:44,06-02-2024 20:01:56,11.729s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,06-02-2024 20:01:56,06-02-2024 20:01:58,1.471s,PASSED
+,,,,,,,
+Test Cases/discover/discover_mobiles002,Chrome 121.0.0.0,,,06-02-2024 20:01:58,06-02-2024 20:02:53,55.362s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,06-02-2024 20:01:58,06-02-2024 20:01:59,1.515s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,06-02-2024 20:01:59,06-02-2024 20:02:04,5.000s,PASSED
+"click(findTestObject(""Object Repository/discover/discover_mobiles002/Page_Online Shopping site in India Shop Onl_10c5f3/a_Mobiles""))",Chrome 121.0.0.0,,,06-02-2024 20:02:04,06-02-2024 20:02:38,33.667s,PASSED
+"click(findTestObject(""Object Repository/discover/discover_mobiles002/Page_Mobile Phones Buy New Mobiles Online a_11ca6d/span_Apple""))",Chrome 121.0.0.0,,,06-02-2024 20:02:38,06-02-2024 20:02:41,2.894s,PASSED
+"click(findTestObject(""Object Repository/discover/discover_mobiles002/Page_Amazon.in/span_Samsung""))",Chrome 121.0.0.0,,,06-02-2024 20:02:41,06-02-2024 20:02:50,9.187s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,06-02-2024 20:02:50,06-02-2024 20:02:53,2.951s,PASSED
+,,,,,,,
+Test Cases/login/login_normal002,Chrome 121.0.0.0,,,06-02-2024 20:02:53,06-02-2024 20:04:33,1m - 39.883s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,06-02-2024 20:02:53,06-02-2024 20:02:58,4.726s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,06-02-2024 20:02:58,06-02-2024 20:03:05,7.333s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite""))",Chrome 121.0.0.0,,,06-02-2024 20:03:05,06-02-2024 20:03:07,1.475s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/b_Hello, sign in""))",Chrome 121.0.0.0,,,06-02-2024 20:03:07,06-02-2024 20:03:09,2.307s,PASSED
+"setText(findTestObject(""Object Repository/login/login_normal002/Page_Amazon Sign In/input_email""), ""7779970102"")",Chrome 121.0.0.0,,,06-02-2024 20:03:09,06-02-2024 20:03:11,1.662s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Amazon Sign In/inputcontinue""))",Chrome 121.0.0.0,,,06-02-2024 20:03:11,06-02-2024 20:03:12,1.234s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/login/login_normal002/Page_Amazon Sign In/input_password""), ""eSPcD+aU0jcqZChrJx5wLA=="")",Chrome 121.0.0.0,,,06-02-2024 20:03:12,06-02-2024 20:03:13,1.062s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Amazon Sign In/inputsignInSubmit""))",Chrome 121.0.0.0,,,06-02-2024 20:03:13,06-02-2024 20:03:13,0.443s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite""))",Chrome 121.0.0.0,,,06-02-2024 20:03:13,06-02-2024 20:03:21,7.318s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings""))",Chrome 121.0.0.0,,,06-02-2024 20:03:21,06-02-2024 20:03:57,35.995s,PASSED
+"verifyElementText(findTestObject(""Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings""), ""Help & Settings"")",Chrome 121.0.0.0,,,06-02-2024 20:03:57,06-02-2024 20:04:30,32.984s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign Out""))",Chrome 121.0.0.0,,,06-02-2024 20:04:30,06-02-2024 20:04:32,2.556s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,06-02-2024 20:04:32,06-02-2024 20:04:33,0.620s,PASSED

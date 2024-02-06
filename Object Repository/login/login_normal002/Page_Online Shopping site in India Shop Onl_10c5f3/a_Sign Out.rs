@@ -6,12 +6,12 @@
    <elementGuidId>77ca47e5-fafd-4d3d-bed6-db4bfedcdfe7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;$Nav.getNow('signInRedirect')('nav_em_hd_re_signin', '/gp/flex/sign-out.html?action=sign-out&amp;path=%2Fgp%2Fhomepage.html%3F_encoding%3DUTF8%26ref_%3Dnavm_em_signin&amp;signIn=1&amp;useRedirectOnSuccess=1&amp;ref_=nav_em_signout_0_1_1_37', 'nav_em_hd_clc_signin_0_1_1_37')&quot;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>li:nth-of-type(32) > a.hmenu-item</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Sign Out')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

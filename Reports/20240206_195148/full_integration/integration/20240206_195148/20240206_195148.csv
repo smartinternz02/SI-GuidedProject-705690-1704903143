@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+integration,Chrome 121.0.0.0,,,06-02-2024 19:51:54,06-02-2024 19:54:52,2m - 58.275s,PASSED
+,,,,,,,
+Test Cases/integration/successful002,Chrome 121.0.0.0,,,06-02-2024 19:51:54,06-02-2024 19:54:52,2m - 57.995s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,06-02-2024 19:51:55,06-02-2024 19:51:57,2.697s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,06-02-2024 19:51:57,06-02-2024 19:52:02,4.249s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite""))",Chrome 121.0.0.0,,,06-02-2024 19:52:02,06-02-2024 19:52:03,1.237s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Online Shopping site in India Shop Onl_10c5f3/b_Hello, sign in""))",Chrome 121.0.0.0,,,06-02-2024 19:52:03,06-02-2024 19:52:05,2.037s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Amazon Sign In/input_email""), ""7779970102"")",Chrome 121.0.0.0,,,06-02-2024 19:52:05,06-02-2024 19:52:06,1.515s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon Sign In/inputcontinue""))",Chrome 121.0.0.0,,,06-02-2024 19:52:06,06-02-2024 19:52:08,1.399s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/integration/successful002/Page_Amazon Sign In/input_password""), ""eSPcD+aU0jcqZChrJx5wLA=="")",Chrome 121.0.0.0,,,06-02-2024 19:52:08,06-02-2024 19:52:09,0.841s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon Sign In/inputsignInSubmit""))",Chrome 121.0.0.0,,,06-02-2024 19:52:09,06-02-2024 19:52:09,0.427s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon miniTV""))",Chrome 121.0.0.0,,,06-02-2024 19:52:09,06-02-2024 19:52:19,10.446s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon miniTV - Watch Free Web Series,_86fafa/span_Imported""))",Chrome 121.0.0.0,,,06-02-2024 19:52:19,06-02-2024 19:52:21,1.078s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Watch Dubbed Web Series, Korean Drama,_0fb818/span_Web Series""))",Chrome 121.0.0.0,,,06-02-2024 19:52:21,06-02-2024 19:52:22,1.303s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Watch Latest Web Series Online for Fre_49d131/span_Movies""))",Chrome 121.0.0.0,,,06-02-2024 19:52:22,06-02-2024 19:52:23,1.389s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Watch Popular Movies  Short Films Onli_56b9b2/span_Romance""))",Chrome 121.0.0.0,,,06-02-2024 19:52:23,06-02-2024 19:52:24,1.143s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Watch Trending Romantic Web Series  Mo_a46f5a/span_Comedy""))",Chrome 121.0.0.0,,,06-02-2024 19:52:24,06-02-2024 19:52:26,1.277s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Watch Comedy Web Series, Short Films  _4c3a92/img_AppNavbar_mShopIcon__4UsHr""))",Chrome 121.0.0.0,,,06-02-2024 19:52:26,06-02-2024 19:52:33,7.074s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in/input_field-keywords_1""), ""poco x6"")",Chrome 121.0.0.0,,,06-02-2024 19:52:33,06-02-2024 19:52:37,3.794s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,06-02-2024 19:52:37,06-02-2024 19:52:41,4.885s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in  poco x6/button_Add to Cart""))",Chrome 121.0.0.0,,,06-02-2024 19:52:41,06-02-2024 19:52:42,0.873s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in  poco x6/a_1                                        _7d74ab""))",Chrome 121.0.0.0,,,06-02-2024 19:52:42,06-02-2024 19:52:45,3.102s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in Shopping Cart/input_proceedToRetailCheckout""))",Chrome 121.0.0.0,,,06-02-2024 19:52:45,06-02-2024 19:52:54,8.264s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/a_Add a new address""))",Chrome 121.0.0.0,,,06-02-2024 19:52:54,06-02-2024 19:52:56,2.111s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/span_India""))",Chrome 121.0.0.0,,,06-02-2024 19:52:56,06-02-2024 19:52:56,0.697s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/a_India""))",Chrome 121.0.0.0,,,06-02-2024 19:52:56,06-02-2024 19:52:57,0.483s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/input_address-ui-widgets-enterAddressFullName""), ""Ritesh Kumar"")",Chrome 121.0.0.0,,,06-02-2024 19:52:57,06-02-2024 19:52:58,0.682s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/input_address-ui-widgets-enterAddressPhoneNumber""), ""7779970102"")",Chrome 121.0.0.0,,,06-02-2024 19:52:58,06-02-2024 19:52:58,0.796s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/input_address-ui-widgets-enterAddressPostalCode""), ""834010"")",Chrome 121.0.0.0,,,06-02-2024 19:52:58,06-02-2024 19:52:59,0.729s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/input_address-ui-widgets-enterAddressLine1""), ""847"")",Chrome 121.0.0.0,,,06-02-2024 19:52:59,06-02-2024 19:53:01,1.338s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/input_address-ui-widgets-enterAddressLine2""), ""Namkum Bazar, Ranchi"")",Chrome 121.0.0.0,,,06-02-2024 19:53:01,06-02-2024 19:53:01,0.960s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/input_address-ui-widgets-landmark""), ""Rajprastha Hospital"")",Chrome 121.0.0.0,,,06-02-2024 19:53:01,06-02-2024 19:53:03,1.537s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/input_address-ui-widgets-enterAddressCity""), ""RANCHI"")",Chrome 121.0.0.0,,,06-02-2024 19:53:03,06-02-2024 19:53:04,0.692s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/span_JHARKHAND""))",Chrome 121.0.0.0,,,06-02-2024 19:53:04,06-02-2024 19:53:04,0.440s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/a_JHARKHAND""))",Chrome 121.0.0.0,,,06-02-2024 19:53:04,06-02-2024 19:53:05,0.575s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/input_a-button-input""))",Chrome 121.0.0.0,,,06-02-2024 19:53:05,06-02-2024 19:53:05,0.386s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in Checkout/input_ppw-instrumentRowSelection""))",Chrome 121.0.0.0,,,06-02-2024 19:53:05,06-02-2024 19:53:38,32.755s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in Checkout/input___sif_encryptedVPA_collect""), ""demonritesh8092-1@oksbi"")",Chrome 121.0.0.0,,,06-02-2024 19:53:38,06-02-2024 19:54:42,1m - 3.843s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in Checkout/input_ppw-widgetEventValidateUpiIdEvent""))",Chrome 121.0.0.0,,,06-02-2024 19:54:42,06-02-2024 19:54:42,0.502s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in Checkout/input_ppw-widgetEventSetPaymentPlanSelectCo_b3daea""))",Chrome 121.0.0.0,,,06-02-2024 19:54:42,06-02-2024 19:54:51,8.600s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in Checkout/span_No Thanks""))",Chrome 121.0.0.0,,,06-02-2024 19:54:51,06-02-2024 19:54:52,0.762s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,06-02-2024 19:54:52,06-02-2024 19:54:52,0.548s,PASSED

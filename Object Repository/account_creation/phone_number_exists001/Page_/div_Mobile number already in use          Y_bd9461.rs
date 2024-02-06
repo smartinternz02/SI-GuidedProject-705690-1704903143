@@ -6,15 +6,15 @@
    <elementGuidId>baab1159-ec77-4da2-9da1-3f45616a9b91</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='authportal-main-section']/div[2]/div/div/div/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.a-box.a-alert.a-alert-warning.a-spacing-base > div.a-box-inner.a-alert-container</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='authportal-main-section']/div[2]/div/div/div/div</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

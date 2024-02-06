@@ -6,12 +6,12 @@
    <elementGuidId>c0dd4545-fe59-457f-87f6-d5cd45984b14</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='ap-signin-alternative-option-divider']/div/h5</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h5</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

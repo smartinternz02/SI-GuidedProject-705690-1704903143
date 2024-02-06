@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/account_creation/no_password/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings",
+      "brokenLocator": "//div[@id\u003d\u0027hmenu-content\u0027]/ul/li[29]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[(text() \u003d \u0027Help \u0026 Settings\u0027 or . \u003d \u0027Help \u0026 Settings\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240206_194734/account_creation_errors/account_creation_errors/20240206_194734/Object Repository/account_creation/no_password/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/account_creation/phone_number_exists001/Page_/div_Mobile number already in use          Y_bd9461",
+      "brokenLocator": "//div[@id\u003d\u0027authportal-main-section\u0027]/div[2]/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "div.a-box.a-alert.a-alert-warning.a-spacing-base \u003e div.a-box-inner.a-alert-container",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240206_194734/account_creation_errors/account_creation_errors/20240206_194734/Object Repository/account_creation/phone_number_exists001/Page_/div_Mobile number already in use          Y_bd9461_CSS.png"
+    }
+  ]
+}

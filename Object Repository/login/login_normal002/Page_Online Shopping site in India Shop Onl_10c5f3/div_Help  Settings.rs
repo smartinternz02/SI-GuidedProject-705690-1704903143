@@ -6,12 +6,11 @@
    <elementGuidId>d40a7e6f-bf55-4861-a0cf-79e8d3bacec0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='hmenu-content']/ul/li[29]/div</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Help &amp; Settings' or . = 'Help &amp; Settings')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
