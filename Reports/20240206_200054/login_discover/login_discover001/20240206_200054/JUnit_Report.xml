@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login_discover001" time="213.147" tests="3" failures="0" errors="0">
+   <testsuite name="login_discover001" tests="3" failures="0" errors="0" time="213.147" skipped="0" timestamp="06-02-2024T20:01:00" hostname="Devil - LAPTOP-V2P5S4MK.mshome.net" id="Test Suites/login_discover/login_discover001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Devil\\git\\SI-GuidedProject-705690-1704903143\\Reports\\20240206_200054\\login_discover\\login_discover001\\20240206_200054"/>
+         <property name="logFiles" value="C:\\Users\\Devil\\git\\SI-GuidedProject-705690-1704903143\\Reports\\20240206_200054\\login_discover\\login_discover001\\20240206_200054\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Devil - LAPTOP-V2P5S4MK.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="d83572a15bb38f2bf1fc5a5c779de5f1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/discover/discover007" time="57.439" classname="Test Cases/discover/discover007" status="PASSED">
+         <system-out><![CDATA[06-02-2024T20:01:00 - [TEST_CASE][PASSED] - Test Cases/discover/discover007: Test Cases/discover/discover007
+
+06-02-2024T20:01:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-02-2024T20:01:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-02-2024T20:01:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2024T20:01:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-02-2024T20:01:21 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+06-02-2024T20:01:23 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+06-02-2024T20:01:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/discover/discover007/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon miniTV")): Object: 'Object Repository/discover/discover007/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon miniTV' is clicked on
+
+06-02-2024T20:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/discover/discover007/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon miniTV' is clicked on
+
+06-02-2024T20:01:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/discover/discover007/Page_Amazon miniTV - Watch Free Web Series,_86fafa/span_Imported")): Object: 'Object Repository/discover/discover007/Page_Amazon miniTV - Watch Free Web Series,_86fafa/span_Imported' is clicked on
+
+06-02-2024T20:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/discover/discover007/Page_Amazon miniTV - Watch Free Web Series,_86fafa/span_Imported' is clicked on
+
+06-02-2024T20:01:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/discover/discover007/Page_Watch Dubbed Web Series, Korean Drama,_0fb818/span_Web Series")): Object: 'Object Repository/discover/discover007/Page_Watch Dubbed Web Series, Korean Drama,_0fb818/span_Web Series' is clicked on
+
+06-02-2024T20:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/discover/discover007/Page_Watch Dubbed Web Series, Korean Drama,_0fb818/span_Web Series' is clicked on
+
+06-02-2024T20:01:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/discover/discover007/Page_Watch Latest Web Series Online for Fre_49d131/span_Movies")): Object: 'Object Repository/discover/discover007/Page_Watch Latest Web Series Online for Fre_49d131/span_Movies' is clicked on
+
+06-02-2024T20:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/discover/discover007/Page_Watch Latest Web Series Online for Fre_49d131/span_Movies' is clicked on
+
+06-02-2024T20:01:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/discover/discover007/Page_Watch Popular Movies  Short Films Onli_56b9b2/span_Romance")): Object: 'Object Repository/discover/discover007/Page_Watch Popular Movies  Short Films Onli_56b9b2/span_Romance' is clicked on
+
+06-02-2024T20:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/discover/discover007/Page_Watch Popular Movies  Short Films Onli_56b9b2/span_Romance' is clicked on
+
+06-02-2024T20:01:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/discover/discover007/Page_Watch Trending Romantic Web Series  Mo_a46f5a/span_Comedy")): Object: 'Object Repository/discover/discover007/Page_Watch Trending Romantic Web Series  Mo_a46f5a/span_Comedy' is clicked on
+
+06-02-2024T20:01:34 - [MESSAGE][PASSED] - Object: 'Object Repository/discover/discover007/Page_Watch Trending Romantic Web Series  Mo_a46f5a/span_Comedy' is clicked on
+
+06-02-2024T20:01:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/discover/discover007/Page_Watch Comedy Web Series, Short Films  _4c3a92/img_AppNavbar_mShopIcon__4UsHr")): Object: 'Object Repository/discover/discover007/Page_Watch Comedy Web Series, Short Films  _4c3a92/img_AppNavbar_mShopIcon__4UsHr' is clicked on
+
+06-02-2024T20:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/discover/discover007/Page_Watch Comedy Web Series, Short Films  _4c3a92/img_AppNavbar_mShopIcon__4UsHr' is clicked on
+
+06-02-2024T20:01:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/discover/discover007/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell")): Object: 'Object Repository/discover/discover007/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell' is clicked on
+
+06-02-2024T20:01:44 - [MESSAGE][PASSED] - Object: 'Object Repository/discover/discover007/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell' is clicked on
+
+06-02-2024T20:01:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/discover/discover007/Page_Amazon.in CrossShop1/a_Mobiles")): Object: 'Object Repository/discover/discover007/Page_Amazon.in CrossShop1/a_Mobiles' is clicked on
+
+06-02-2024T20:01:56 - [MESSAGE][PASSED] - Object: 'Object Repository/discover/discover007/Page_Amazon.in CrossShop1/a_Mobiles' is clicked on
+
+06-02-2024T20:01:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-02-2024T20:01:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/discover/discover_mobiles002" time="55.362" classname="Test Cases/discover/discover_mobiles002" status="PASSED">
+         <system-out><![CDATA[06-02-2024T20:01:58 - [TEST_CASE][PASSED] - Test Cases/discover/discover_mobiles002: Test Cases/discover/discover_mobiles002
+
+06-02-2024T20:01:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-02-2024T20:01:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-02-2024T20:01:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2024T20:01:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-02-2024T20:01:59 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+06-02-2024T20:02:04 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+06-02-2024T20:02:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/discover/discover_mobiles002/Page_Online Shopping site in India Shop Onl_10c5f3/a_Mobiles")): Object: 'Object Repository/discover/discover_mobiles002/Page_Online Shopping site in India Shop Onl_10c5f3/a_Mobiles' is clicked on
+
+06-02-2024T20:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/discover/discover_mobiles002/Page_Online Shopping site in India Shop Onl_10c5f3/a_Mobiles' is clicked on
+
+06-02-2024T20:02:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/discover/discover_mobiles002/Page_Mobile Phones Buy New Mobiles Online a_11ca6d/span_Apple")): Object: 'Object Repository/discover/discover_mobiles002/Page_Mobile Phones Buy New Mobiles Online a_11ca6d/span_Apple' is clicked on
+
+06-02-2024T20:02:41 - [MESSAGE][PASSED] - Object: 'Object Repository/discover/discover_mobiles002/Page_Mobile Phones Buy New Mobiles Online a_11ca6d/span_Apple' is clicked on
+
+06-02-2024T20:02:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/discover/discover_mobiles002/Page_Amazon.in/span_Samsung")): Object: 'Object Repository/discover/discover_mobiles002/Page_Amazon.in/span_Samsung' is clicked on
+
+06-02-2024T20:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/discover/discover_mobiles002/Page_Amazon.in/span_Samsung' is clicked on
+
+06-02-2024T20:02:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-02-2024T20:02:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login/login_normal002" time="99.883" classname="Test Cases/login/login_normal002" status="PASSED">
+         <system-out><![CDATA[06-02-2024T20:02:53 - [TEST_CASE][PASSED] - Test Cases/login/login_normal002: Test Cases/login/login_normal002
+
+06-02-2024T20:02:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-02-2024T20:02:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-02-2024T20:02:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2024T20:02:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-02-2024T20:02:58 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+06-02-2024T20:03:05 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+06-02-2024T20:03:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite")): Object: 'Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite' is clicked on
+
+06-02-2024T20:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite' is clicked on
+
+06-02-2024T20:03:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/b_Hello, sign in")): Object: 'Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/b_Hello, sign in' is clicked on
+
+06-02-2024T20:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/b_Hello, sign in' is clicked on
+
+06-02-2024T20:03:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/login/login_normal002/Page_Amazon Sign In/input_email"), "7779970102"): Text '7779970102' is set on object 'Object Repository/login/login_normal002/Page_Amazon Sign In/input_email'
+
+06-02-2024T20:03:11 - [MESSAGE][PASSED] - Text '7779970102' is set on object 'Object Repository/login/login_normal002/Page_Amazon Sign In/input_email'
+
+06-02-2024T20:03:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/login_normal002/Page_Amazon Sign In/inputcontinue")): Object: 'Object Repository/login/login_normal002/Page_Amazon Sign In/inputcontinue' is clicked on
+
+06-02-2024T20:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/login/login_normal002/Page_Amazon Sign In/inputcontinue' is clicked on
+
+06-02-2024T20:03:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/login/login_normal002/Page_Amazon Sign In/input_password"), "eSPcD+aU0jcqZChrJx5wLA=="): Text ****** has been set on object 'Object Repository/login/login_normal002/Page_Amazon Sign In/input_password'
+
+06-02-2024T20:03:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login/login_normal002/Page_Amazon Sign In/input_password'
+
+06-02-2024T20:03:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/login_normal002/Page_Amazon Sign In/inputsignInSubmit")): Object: 'Object Repository/login/login_normal002/Page_Amazon Sign In/inputsignInSubmit' is clicked on
+
+06-02-2024T20:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/login/login_normal002/Page_Amazon Sign In/inputsignInSubmit' is clicked on
+
+06-02-2024T20:03:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite")): Object: 'Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite' is clicked on
+
+06-02-2024T20:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite' is clicked on
+
+06-02-2024T20:03:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings")): Object: 'Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings' is clicked on
+
+06-02-2024T20:03:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='hmenu-content']/ul/li[29]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+06-02-2024T20:03:53 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings'. Try using Self-healing.
+
+06-02-2024T20:03:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='hmenu-content']/ul/li[29]/div'.
+
+06-02-2024T20:03:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//li[29]/div'.
+
+06-02-2024T20:03:56 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[(text() = 'Help & Settings' or . = 'Help & Settings')]'.
+
+06-02-2024T20:03:57 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Devil/git/SI-GuidedProject-705690-1704903143/Reports/Self-healing/Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings_customAttributes.png
+
+06-02-2024T20:03:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings' was broken. Propose an alternative one: '//div[(text() = 'Help & Settings' or . = 'Help & Settings')]'.
+
+06-02-2024T20:03:57 - [MESSAGE][PASSED] - Object: 'Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings' is clicked on
+
+06-02-2024T20:03:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings"), "Help & Settings"): Actual text and expected text of test object 'Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings' are matched.
+
+06-02-2024T20:04:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='hmenu-content']/ul/li[29]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+06-02-2024T20:04:29 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings'. Try using Self-healing.
+
+06-02-2024T20:04:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings' was broken. Propose an alternative one: '//div[(text() = 'Help & Settings' or . = 'Help & Settings')]'.
+
+06-02-2024T20:04:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings' are matched.
+
+06-02-2024T20:04:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign Out")): Object: 'Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign Out' is clicked on
+
+06-02-2024T20:04:32 - [MESSAGE][PASSED] - Object: 'Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign Out' is clicked on
+
+06-02-2024T20:04:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-02-2024T20:04:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-02-2024T20:01:00 - [TEST_SUITE][PASSED] - login_discover001: Test Cases/login/login_normal002]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

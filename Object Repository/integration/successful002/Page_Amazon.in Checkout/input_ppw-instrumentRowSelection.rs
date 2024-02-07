@@ -6,12 +6,12 @@
    <elementGuidId>d614adbd-d6d5-492e-a17a-19b8387127af</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='pp-aJblg7-128']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#pp-aJblg7-128</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div/label/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

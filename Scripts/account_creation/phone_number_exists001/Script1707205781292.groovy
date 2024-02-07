@@ -17,3 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.amazon.in/')
+
+WebUI.click(findTestObject('Object Repository/account_creation/phone_number_exists001/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite'))
+
+WebUI.click(findTestObject('Object Repository/account_creation/phone_number_exists001/Page_Online Shopping site in India Shop Onl_10c5f3/b_Hello, sign in'))
+
+WebUI.click(findTestObject('Object Repository/account_creation/phone_number_exists001/Page_Amazon Sign In/h5_New to Amazon'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/account_creation/phone_number_exists001/Page_Amazon Sign In/h5_New to Amazon'), 
+    'New to Amazon?')
+
+WebUI.click(findTestObject('Object Repository/account_creation/phone_number_exists001/Page_Amazon Sign In/a_Create your Amazon account'))
+
+WebUI.setText(findTestObject('Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/input_customerName'), 
+    'H')
+
+WebUI.setText(findTestObject('Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/input_email'), 
+    '7779970102')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/input_password'), 
+    'MFyDUS+SCPQ=')
+
+WebUI.click(findTestObject('Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/inputcontinue'))
+
+WebUI.click(findTestObject('Object Repository/account_creation/phone_number_exists001/Page_/div_Mobile number already in use          Y_bd9461'))
+
+WebUI.closeBrowser()
+

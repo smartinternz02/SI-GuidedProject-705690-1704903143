@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/integration/successful002/Page_Amazon.in Checkout/input_ppw-instrumentRowSelection",
+      "brokenLocator": "//input[@id\u003d\u0027pp-aJblg7-128\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/label/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240206_195148/full_integration/integration/20240206_195148/Object Repository/integration/successful002/Page_Amazon.in Checkout/input_ppw-instrumentRowSelection_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/integration/successful002/Page_Amazon.in Checkout/input___sif_encryptedVPA_collect",
+      "brokenLocator": "//input[@id\u003d\u0027pp-aJblg7-116\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240206_195148/full_integration/integration/20240206_195148/Object Repository/integration/successful002/Page_Amazon.in Checkout/input___sif_encryptedVPA_collect_position.png"
+    }
+  ]
+}
