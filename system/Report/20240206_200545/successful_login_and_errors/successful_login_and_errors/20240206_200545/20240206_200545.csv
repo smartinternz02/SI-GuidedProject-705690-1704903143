@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+successful_login_and_errors,Chrome 121.0.0.0,,,06-02-2024 20:05:51,06-02-2024 20:13:23,7m - 31.768s,PASSED
+,,,,,,,
+Test Cases/login/login_invalid001,Chrome 121.0.0.0,,,06-02-2024 20:07:14,06-02-2024 20:07:52,37.737s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,06-02-2024 20:07:14,06-02-2024 20:07:16,1.709s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,06-02-2024 20:07:16,06-02-2024 20:07:21,5.317s,PASSED
+"click(findTestObject(""Object Repository/login/login_invalid001/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in""))",Chrome 121.0.0.0,,,06-02-2024 20:07:21,06-02-2024 20:07:24,2.644s,PASSED
+"setText(findTestObject(""Object Repository/login/login_invalid001/Page_Amazon Sign In/input_email""), ""7779970102"")",Chrome 121.0.0.0,,,06-02-2024 20:07:24,06-02-2024 20:07:26,1.676s,PASSED
+"click(findTestObject(""Object Repository/login/login_invalid001/Page_Amazon Sign In/inputcontinue""))",Chrome 121.0.0.0,,,06-02-2024 20:07:26,06-02-2024 20:07:27,1.537s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/login/login_invalid001/Page_Amazon Sign In/input_password""), ""bTwHvk7+CW7zmy5US5sLFA=="")",Chrome 121.0.0.0,,,06-02-2024 20:07:27,06-02-2024 20:07:28,1.091s,PASSED
+"click(findTestObject(""Object Repository/login/login_invalid001/Page_Amazon Sign In/inputsignInSubmit""))",Chrome 121.0.0.0,,,06-02-2024 20:07:28,06-02-2024 20:07:29,0.649s,PASSED
+"click(findTestObject(""Object Repository/login/login_invalid001/Page_Amazon Sign In/li_Your password is incorrect""))",Chrome 121.0.0.0,,,06-02-2024 20:07:29,06-02-2024 20:07:51,22.037s,PASSED
+"verifyElementText(findTestObject(""Object Repository/login/login_invalid001/Page_Amazon Sign In/span_Your password is incorrect""), ""Your password is incorrect"")",Chrome 121.0.0.0,,,06-02-2024 20:07:51,06-02-2024 20:07:51,0.510s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,06-02-2024 20:07:51,06-02-2024 20:07:52,0.511s,PASSED
+,,,,,,,
+Test Cases/login/login_invalid003,Chrome 121.0.0.0,,,06-02-2024 20:07:52,06-02-2024 20:08:04,11.954s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,06-02-2024 20:07:52,06-02-2024 20:07:53,1.151s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,06-02-2024 20:07:53,06-02-2024 20:07:58,4.944s,PASSED
+"click(findTestObject(""Object Repository/login/login_invalid003/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite""))",Chrome 121.0.0.0,,,06-02-2024 20:07:58,06-02-2024 20:08:00,1.301s,PASSED
+"click(findTestObject(""Object Repository/login/login_invalid003/Page_Online Shopping site in India Shop Onl_10c5f3/b_Hello, sign in""))",Chrome 121.0.0.0,,,06-02-2024 20:08:00,06-02-2024 20:08:02,2.524s,PASSED
+"click(findTestObject(""Object Repository/login/login_invalid003/Page_Amazon Sign In/inputcontinue""))",Chrome 121.0.0.0,,,06-02-2024 20:08:02,06-02-2024 20:08:04,1.412s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,06-02-2024 20:08:04,06-02-2024 20:08:04,0.397s,PASSED
+,,,,,,,
+Test Cases/login/login_normal002,Chrome 121.0.0.0,,,06-02-2024 20:08:44,06-02-2024 20:10:53,2m - 9.454s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,06-02-2024 20:08:44,06-02-2024 20:08:46,1.666s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,06-02-2024 20:08:46,06-02-2024 20:08:51,4.823s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite""))",Chrome 121.0.0.0,,,06-02-2024 20:08:51,06-02-2024 20:08:52,1.406s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/b_Hello, sign in""))",Chrome 121.0.0.0,,,06-02-2024 20:08:52,06-02-2024 20:08:55,2.630s,PASSED
+"setText(findTestObject(""Object Repository/login/login_normal002/Page_Amazon Sign In/input_email""), ""7779970102"")",Chrome 121.0.0.0,,,06-02-2024 20:08:55,06-02-2024 20:08:56,1.665s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Amazon Sign In/inputcontinue""))",Chrome 121.0.0.0,,,06-02-2024 20:08:56,06-02-2024 20:08:58,1.520s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/login/login_normal002/Page_Amazon Sign In/input_password""), ""eSPcD+aU0jcqZChrJx5wLA=="")",Chrome 121.0.0.0,,,06-02-2024 20:08:58,06-02-2024 20:08:59,0.893s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Amazon Sign In/inputsignInSubmit""))",Chrome 121.0.0.0,,,06-02-2024 20:08:59,06-02-2024 20:08:59,0.602s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite""))",Chrome 121.0.0.0,,,06-02-2024 20:08:59,06-02-2024 20:09:08,8.335s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings""))",Chrome 121.0.0.0,,,06-02-2024 20:09:08,06-02-2024 20:09:42,34.054s,PASSED
+"verifyElementText(findTestObject(""Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings""), ""Help & Settings"")",Chrome 121.0.0.0,,,06-02-2024 20:09:42,06-02-2024 20:10:15,32.898s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign Out""))",Chrome 121.0.0.0,,,06-02-2024 20:10:15,06-02-2024 20:10:53,38.189s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,06-02-2024 20:10:53,06-02-2024 20:10:53,0.700s,PASSED
+,,,,,,,
+Test Cases/login/login_normal_with_otp,Chrome 121.0.0.0,,,06-02-2024 20:10:53,06-02-2024 20:13:23,2m - 29.552s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,06-02-2024 20:10:54,06-02-2024 20:10:56,2.656s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,06-02-2024 20:10:56,06-02-2024 20:11:00,4.139s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal_with_otp/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite""))",Chrome 121.0.0.0,,,06-02-2024 20:11:00,06-02-2024 20:11:20,19.673s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal_with_otp/Page_Online Shopping site in India Shop Onl_10c5f3/b_Hello, sign in""))",Chrome 121.0.0.0,,,06-02-2024 20:11:20,06-02-2024 20:11:25,4.471s,PASSED
+"setText(findTestObject(""Object Repository/login/login_normal_with_otp/Page_Amazon Sign In/input_email""), ""7779970102"")",Chrome 121.0.0.0,,,06-02-2024 20:11:25,06-02-2024 20:11:27,2.190s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal_with_otp/Page_Amazon Sign In/inputcontinue""))",Chrome 121.0.0.0,,,06-02-2024 20:11:27,06-02-2024 20:11:30,2.818s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal_with_otp/Page_Amazon Sign In/h5_or""))",Chrome 121.0.0.0,,,06-02-2024 20:11:30,06-02-2024 20:12:02,32.223s,PASSED
+"verifyElementText(findTestObject(""Object Repository/login/login_normal_with_otp/Page_Amazon Sign In/h5_or""), ""or"")",Chrome 121.0.0.0,,,06-02-2024 20:12:02,06-02-2024 20:12:33,31.515s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal_with_otp/Page_Amazon Sign In/inputcontinue""))",Chrome 121.0.0.0,,,06-02-2024 20:12:33,06-02-2024 20:12:36,2.547s,PASSED
+"setText(findTestObject(""Object Repository/login/login_normal_with_otp/Page_Authentication required/input_code""), """")",Chrome 121.0.0.0,,,06-02-2024 20:12:36,06-02-2024 20:12:37,1.065s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal_with_otp/Page_Authentication required/input_a-button-input""))",Chrome 121.0.0.0,,,06-02-2024 20:12:37,06-02-2024 20:13:14,36.908s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal_with_otp/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite""))",Chrome 121.0.0.0,,,06-02-2024 20:13:14,06-02-2024 20:13:18,4.079s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal_with_otp/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign Out""))",Chrome 121.0.0.0,,,06-02-2024 20:13:18,06-02-2024 20:13:22,4.470s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,06-02-2024 20:13:22,06-02-2024 20:13:23,0.597s,PASSED
