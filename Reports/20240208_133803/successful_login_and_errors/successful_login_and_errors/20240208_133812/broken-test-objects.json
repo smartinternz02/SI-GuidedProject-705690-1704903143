@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/login/login_normal_with_otp/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite",
+      "brokenLocator": "//a[@id\u003d\u0027nav-hamburger-menu\u0027]/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240208_133803/successful_login_and_errors/successful_login_and_errors/20240208_133812/Object Repository/login/login_normal_with_otp/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite_position.png"
+    }
+  ]
+}

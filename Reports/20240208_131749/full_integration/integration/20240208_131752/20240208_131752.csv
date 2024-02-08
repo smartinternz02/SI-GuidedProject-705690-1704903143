@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+integration,Chrome 121.0.0.0,,,08-02-2024 13:23:24,08-02-2024 13:28:50,5m - 25.729s,PASSED
+,,,,,,,
+Test Cases/integration/successful002,Chrome 121.0.0.0,,,08-02-2024 13:27:01,08-02-2024 13:28:50,1m - 48.742s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,08-02-2024 13:27:01,08-02-2024 13:27:05,4.202s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,08-02-2024 13:27:05,08-02-2024 13:27:07,1.436s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,08-02-2024 13:27:07,08-02-2024 13:27:11,4.027s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite""))",Chrome 121.0.0.0,,,08-02-2024 13:27:11,08-02-2024 13:27:25,14.479s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Online Shopping site in India Shop Onl_10c5f3/b_Hello, sign in""))",Chrome 121.0.0.0,,,08-02-2024 13:27:25,08-02-2024 13:27:29,4.086s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Amazon Sign In/input_email""), ""7779970102"")",Chrome 121.0.0.0,,,08-02-2024 13:27:29,08-02-2024 13:27:31,1.183s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon Sign In/inputcontinue""))",Chrome 121.0.0.0,,,08-02-2024 13:27:31,08-02-2024 13:27:32,1.704s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/integration/successful002/Page_Amazon Sign In/input_password""), ""eSPcD+aU0jcqZChrJx5wLA=="")",Chrome 121.0.0.0,,,08-02-2024 13:27:32,08-02-2024 13:27:33,0.947s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon Sign In/inputsignInSubmit""))",Chrome 121.0.0.0,,,08-02-2024 13:27:33,08-02-2024 13:27:34,0.388s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon miniTV""))",Chrome 121.0.0.0,,,08-02-2024 13:27:34,08-02-2024 13:27:57,23.280s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon miniTV - Watch Free Web Series,_86fafa/span_Imported""))",Chrome 121.0.0.0,,,08-02-2024 13:27:57,08-02-2024 13:27:57,0.372s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Watch Dubbed Web Series, Korean Drama,_0fb818/span_Web Series""))",Chrome 121.0.0.0,,,08-02-2024 13:27:57,08-02-2024 13:27:59,1.258s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Watch Latest Web Series Online for Fre_49d131/span_Movies""))",Chrome 121.0.0.0,,,08-02-2024 13:27:59,08-02-2024 13:28:00,1.561s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Watch Popular Movies  Short Films Onli_56b9b2/span_Romance""))",Chrome 121.0.0.0,,,08-02-2024 13:28:00,08-02-2024 13:28:01,1.073s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Watch Trending Romantic Web Series  Mo_a46f5a/span_Comedy""))",Chrome 121.0.0.0,,,08-02-2024 13:28:01,08-02-2024 13:28:02,1.277s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Watch Comedy Web Series, Short Films  _4c3a92/img_AppNavbar_mShopIcon__4UsHr""))",Chrome 121.0.0.0,,,08-02-2024 13:28:02,08-02-2024 13:28:06,3.138s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in/input_field-keywords_1""), ""poco x6"")",Chrome 121.0.0.0,,,08-02-2024 13:28:06,08-02-2024 13:28:08,2.190s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,08-02-2024 13:28:08,08-02-2024 13:28:13,5.530s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in  poco x6/button_Add to Cart""))",Chrome 121.0.0.0,,,08-02-2024 13:28:13,08-02-2024 13:28:14,0.883s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in  poco x6/a_1                                        _7d74ab""))",Chrome 121.0.0.0,,,08-02-2024 13:28:14,08-02-2024 13:28:17,3.011s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in Shopping Cart/input_proceedToRetailCheckout""))",Chrome 121.0.0.0,,,08-02-2024 13:28:17,08-02-2024 13:28:19,2.156s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/a_Add a new address""))",Chrome 121.0.0.0,,,08-02-2024 13:28:19,08-02-2024 13:28:25,5.128s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/span_India""))",Chrome 121.0.0.0,,,08-02-2024 13:28:25,08-02-2024 13:28:25,0.614s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/a_India""))",Chrome 121.0.0.0,,,08-02-2024 13:28:25,08-02-2024 13:28:26,0.474s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/input_address-ui-widgets-enterAddressFullName""), ""Ritesh Kumar"")",Chrome 121.0.0.0,,,08-02-2024 13:28:26,08-02-2024 13:28:26,0.686s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/input_address-ui-widgets-enterAddressPhoneNumber""), ""7779970102"")",Chrome 121.0.0.0,,,08-02-2024 13:28:26,08-02-2024 13:28:27,0.683s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/input_address-ui-widgets-enterAddressPostalCode""), ""834010"")",Chrome 121.0.0.0,,,08-02-2024 13:28:27,08-02-2024 13:28:28,0.713s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/input_address-ui-widgets-enterAddressLine1""), ""847"")",Chrome 121.0.0.0,,,08-02-2024 13:28:28,08-02-2024 13:28:29,1.423s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/input_address-ui-widgets-enterAddressLine2""), ""Namkum Bazar, Ranchi"")",Chrome 121.0.0.0,,,08-02-2024 13:28:29,08-02-2024 13:28:30,0.943s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/input_address-ui-widgets-landmark""), ""Rajprastha Hospital"")",Chrome 121.0.0.0,,,08-02-2024 13:28:30,08-02-2024 13:28:32,1.513s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/input_address-ui-widgets-enterAddressCity""), ""RANCHI"")",Chrome 121.0.0.0,,,08-02-2024 13:28:32,08-02-2024 13:28:32,0.703s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/span_JHARKHAND""))",Chrome 121.0.0.0,,,08-02-2024 13:28:32,08-02-2024 13:28:33,0.389s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/a_JHARKHAND""))",Chrome 121.0.0.0,,,08-02-2024 13:28:33,08-02-2024 13:28:33,0.586s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Select a delivery address/input_a-button-input""))",Chrome 121.0.0.0,,,08-02-2024 13:28:33,08-02-2024 13:28:34,0.366s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in Checkout/input_ppw-instrumentRowSelection""))",Chrome 121.0.0.0,,,08-02-2024 13:28:34,08-02-2024 13:28:40,5.981s,PASSED
+"setText(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in Checkout/input___sif_encryptedVPA_collect""), ""demonritesh8092-1@oksbi"")",Chrome 121.0.0.0,,,08-02-2024 13:28:40,08-02-2024 13:28:41,1.052s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in Checkout/input_ppw-widgetEventValidateUpiIdEvent""))",Chrome 121.0.0.0,,,08-02-2024 13:28:41,08-02-2024 13:28:41,0.509s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in Checkout/input_ppw-widgetEventSetPaymentPlanSelectCo_b3daea""))",Chrome 121.0.0.0,,,08-02-2024 13:28:41,08-02-2024 13:28:49,7.597s,PASSED
+"click(findTestObject(""Object Repository/integration/successful002/Page_Amazon.in Checkout/span_No Thanks""))",Chrome 121.0.0.0,,,08-02-2024 13:28:49,08-02-2024 13:28:49,0.725s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,08-02-2024 13:28:49,08-02-2024 13:28:50,0.425s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,08-02-2024 13:28:50,08-02-2024 13:28:50,0.005s,PASSED

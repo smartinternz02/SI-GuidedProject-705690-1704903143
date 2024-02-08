@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='nav-hamburger-menu']/i</value>
+         <value>//a/i</value>
       </entry>
       <entry>
          <key>CSS</key>

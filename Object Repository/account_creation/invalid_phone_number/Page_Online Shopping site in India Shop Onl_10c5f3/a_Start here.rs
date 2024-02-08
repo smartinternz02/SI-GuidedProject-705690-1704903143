@@ -6,12 +6,12 @@
    <elementGuidId>78676c34-019b-40de-ab78-b5f60ab93707</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.nav-signin-tooltip-footer > a.nav-a</value>
+         <key>XPATH</key>
+         <value>//div[2]/div/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='nav-signin-tooltip']/div/a</value>
+         <key>CSS</key>
+         <value>div.nav-signin-tooltip-footer > a.nav-a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
