@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/account_creation/invalid_phone_number/Page_Online Shopping site in India Shop Onl_10c5f3/a_Start here",
+      "brokenLocator": "//div[@id\u003d\u0027nav-signin-tooltip\u0027]/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240208_133803/account_creation_errors/account_creation_errors/20240208_133804/Object Repository/account_creation/invalid_phone_number/Page_Online Shopping site in India Shop Onl_10c5f3/a_Start here_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/account_creation/invalid_phone_number/Page_Amazon Registration/input_customerName",
+      "brokenLocator": "//input[@id\u003d\u0027ap_customer_name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}
