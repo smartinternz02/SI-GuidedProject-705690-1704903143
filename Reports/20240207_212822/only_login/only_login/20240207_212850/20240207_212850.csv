@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+only_login,Chrome 121.0.0.0,,,07-02-2024 21:29:07,07-02-2024 21:30:33,1m - 26.513s,PASSED
+,,,,,,,
+Test Cases/login/login_normal002,Chrome 121.0.0.0,,,07-02-2024 21:29:08,07-02-2024 21:30:33,1m - 25.378s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,07-02-2024 21:29:08,07-02-2024 21:29:34,26.212s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,07-02-2024 21:29:35,07-02-2024 21:29:38,3.527s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,07-02-2024 21:29:38,07-02-2024 21:29:44,6.130s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite""))",Chrome 121.0.0.0,,,07-02-2024 21:29:44,07-02-2024 21:30:05,20.708s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/b_Hello, sign in""))",Chrome 121.0.0.0,,,07-02-2024 21:30:05,07-02-2024 21:30:10,4.724s,PASSED
+"setText(findTestObject(""Object Repository/login/login_normal002/Page_Amazon Sign In/input_email""), ""7779970102"")",Chrome 121.0.0.0,,,07-02-2024 21:30:10,07-02-2024 21:30:13,2.957s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Amazon Sign In/inputcontinue""))",Chrome 121.0.0.0,,,07-02-2024 21:30:13,07-02-2024 21:30:15,1.885s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/login/login_normal002/Page_Amazon Sign In/input_password""), ""eSPcD+aU0jcqZChrJx5wLA=="")",Chrome 121.0.0.0,,,07-02-2024 21:30:15,07-02-2024 21:30:16,0.994s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Amazon Sign In/inputsignInSubmit""))",Chrome 121.0.0.0,,,07-02-2024 21:30:16,07-02-2024 21:30:25,9.620s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite""))",Chrome 121.0.0.0,,,07-02-2024 21:30:25,07-02-2024 21:30:27,2.107s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings""))",Chrome 121.0.0.0,,,07-02-2024 21:30:27,07-02-2024 21:30:29,1.435s,PASSED
+"verifyElementText(findTestObject(""Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings""), ""Help & Settings"")",Chrome 121.0.0.0,,,07-02-2024 21:30:29,07-02-2024 21:30:30,0.648s,PASSED
+"click(findTestObject(""Object Repository/login/login_normal002/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign Out""))",Chrome 121.0.0.0,,,07-02-2024 21:30:30,07-02-2024 21:30:33,3.089s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,07-02-2024 21:30:33,07-02-2024 21:30:33,0.849s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,07-02-2024 21:30:33,07-02-2024 21:30:33,0.019s,PASSED

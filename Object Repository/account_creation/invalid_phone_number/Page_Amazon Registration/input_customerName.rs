@@ -6,12 +6,12 @@
    <elementGuidId>3231f28c-1577-42e4-bd5b-ec5fdee9cc34</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#ap_customer_name</value>
+         <key>XPATH</key>
+         <value>//div/input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='ap_customer_name']</value>
+         <key>CSS</key>
+         <value>#ap_customer_name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

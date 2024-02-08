@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+account_creation_errors,Chrome 121.0.0.0,,,08-02-2024 13:38:19,08-02-2024 13:47:01,8m - 41.718s,FAILED
+,,,,,,,
+Test Cases/account_creation/invalid_name,Chrome 121.0.0.0,,,08-02-2024 13:39:12,08-02-2024 13:39:32,20.242s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,08-02-2024 13:39:12,08-02-2024 13:39:16,4.815s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,08-02-2024 13:39:16,08-02-2024 13:39:17,1.053s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,08-02-2024 13:39:17,08-02-2024 13:39:23,5.040s,PASSED
+"click(findTestObject(""Object Repository/account_creation/invalid_name/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite""))",Chrome 121.0.0.0,,,08-02-2024 13:39:23,08-02-2024 13:39:24,1.158s,PASSED
+"click(findTestObject(""Object Repository/account_creation/invalid_name/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings""))",Chrome 121.0.0.0,,,08-02-2024 13:39:24,08-02-2024 13:39:25,1.312s,PASSED
+"verifyElementText(findTestObject(""Object Repository/account_creation/invalid_name/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings""), ""Help & Settings"")",Chrome 121.0.0.0,,,08-02-2024 13:39:25,08-02-2024 13:39:25,0.325s,PASSED
+"click(findTestObject(""Object Repository/account_creation/invalid_name/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign in""))",Chrome 121.0.0.0,,,08-02-2024 13:39:25,08-02-2024 13:39:27,1.362s,PASSED
+"click(findTestObject(""Object Repository/account_creation/invalid_name/Page_Amazon Sign In/h5_New to Amazon""))",Chrome 121.0.0.0,,,08-02-2024 13:39:27,08-02-2024 13:39:28,1.086s,PASSED
+"verifyElementText(findTestObject(""Object Repository/account_creation/invalid_name/Page_Amazon Sign In/h5_New to Amazon""), ""New to Amazon?"")",Chrome 121.0.0.0,,,08-02-2024 13:39:28,08-02-2024 13:39:28,0.305s,PASSED
+"click(findTestObject(""Object Repository/account_creation/invalid_name/Page_Amazon Sign In/a_Create your Amazon account""))",Chrome 121.0.0.0,,,08-02-2024 13:39:28,08-02-2024 13:39:29,1.058s,PASSED
+"setText(findTestObject(""Object Repository/account_creation/invalid_name/Page_Amazon Registration/input_email""), ""7779970102"")",Chrome 121.0.0.0,,,08-02-2024 13:39:29,08-02-2024 13:39:30,1.325s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/account_creation/invalid_name/Page_Amazon Registration/input_password""), ""MFyDUS+SCPQ="")",Chrome 121.0.0.0,,,08-02-2024 13:39:30,08-02-2024 13:39:31,0.431s,PASSED
+"click(findTestObject(""Object Repository/account_creation/invalid_name/Page_Amazon Registration/inputcontinue""))",Chrome 121.0.0.0,,,08-02-2024 13:39:31,08-02-2024 13:39:32,0.638s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,08-02-2024 13:39:32,08-02-2024 13:39:32,0.293s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,08-02-2024 13:39:32,08-02-2024 13:39:32,0.006s,PASSED
+,,,,,,,
+Test Cases/account_creation/invalid_phone_number,Chrome 121.0.0.0,,,08-02-2024 13:41:12,08-02-2024 13:41:30,18.612s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,08-02-2024 13:41:12,08-02-2024 13:41:18,6.887s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,08-02-2024 13:41:18,08-02-2024 13:41:20,1.095s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,08-02-2024 13:41:20,08-02-2024 13:41:24,4.511s,PASSED
+"click(findTestObject(""Object Repository/account_creation/invalid_phone_number/Page_Online Shopping site in India Shop Onl_10c5f3/a_Start here""))",Chrome 121.0.0.0,,,08-02-2024 13:41:24,08-02-2024 13:41:26,2.228s,PASSED
+"setText(findTestObject(""Object Repository/account_creation/invalid_phone_number/Page_Amazon Registration/input_customerName""), ""h h"")",Chrome 121.0.0.0,,,08-02-2024 13:41:26,08-02-2024 13:41:27,1.190s,PASSED
+"setText(findTestObject(""Object Repository/account_creation/invalid_phone_number/Page_Amazon Registration/input_email""), ""0000000000"")",Chrome 121.0.0.0,,,08-02-2024 13:41:27,08-02-2024 13:41:28,0.670s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/account_creation/invalid_phone_number/Page_Amazon Registration/input_password""), ""qXOhtTXZ4k1zJv9BiaSJhQ=="")",Chrome 121.0.0.0,,,08-02-2024 13:41:28,08-02-2024 13:41:29,0.425s,PASSED
+"click(findTestObject(""Object Repository/account_creation/invalid_phone_number/Page_Amazon Registration/inputcontinue""))",Chrome 121.0.0.0,,,08-02-2024 13:41:29,08-02-2024 13:41:30,1.405s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,08-02-2024 13:41:30,08-02-2024 13:41:30,0.170s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,08-02-2024 13:41:30,08-02-2024 13:41:30,0.004s,PASSED
+,,,,,,,
+Test Cases/account_creation/no_password,Chrome 121.0.0.0,,,08-02-2024 13:41:30,08-02-2024 13:42:37,1m - 6.560s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,08-02-2024 13:41:30,08-02-2024 13:41:35,4.442s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,08-02-2024 13:41:35,08-02-2024 13:41:36,1.110s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,08-02-2024 13:41:36,08-02-2024 13:41:39,3.057s,PASSED
+"click(findTestObject(""Object Repository/account_creation/no_password/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite""))",Chrome 121.0.0.0,,,08-02-2024 13:41:39,08-02-2024 13:42:27,47.882s,PASSED
+"click(findTestObject(""Object Repository/account_creation/no_password/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings""))",Chrome 121.0.0.0,,,08-02-2024 13:42:27,08-02-2024 13:42:28,1.723s,PASSED
+"verifyElementText(findTestObject(""Object Repository/account_creation/no_password/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings""), ""Help & Settings"")",Chrome 121.0.0.0,,,08-02-2024 13:42:28,08-02-2024 13:42:29,0.339s,PASSED
+"click(findTestObject(""Object Repository/account_creation/no_password/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign in""))",Chrome 121.0.0.0,,,08-02-2024 13:42:29,08-02-2024 13:42:31,2.312s,PASSED
+"click(findTestObject(""Object Repository/account_creation/no_password/Page_Amazon Sign In/h5_New to Amazon""))",Chrome 121.0.0.0,,,08-02-2024 13:42:31,08-02-2024 13:42:33,1.529s,PASSED
+"verifyElementText(findTestObject(""Object Repository/account_creation/no_password/Page_Amazon Sign In/h5_New to Amazon""), ""New to Amazon?"")",Chrome 121.0.0.0,,,08-02-2024 13:42:33,08-02-2024 13:42:33,0.332s,PASSED
+"click(findTestObject(""Object Repository/account_creation/no_password/Page_Amazon Sign In/a_Create your Amazon account""))",Chrome 121.0.0.0,,,08-02-2024 13:42:33,08-02-2024 13:42:34,1.052s,PASSED
+"setText(findTestObject(""Object Repository/account_creation/no_password/Page_Amazon Registration/input_customerName""), ""H"")",Chrome 121.0.0.0,,,08-02-2024 13:42:34,08-02-2024 13:42:35,1.318s,PASSED
+"setText(findTestObject(""Object Repository/account_creation/no_password/Page_Amazon Registration/input_email""), ""7779970102"")",Chrome 121.0.0.0,,,08-02-2024 13:42:35,08-02-2024 13:42:36,0.672s,PASSED
+"click(findTestObject(""Object Repository/account_creation/no_password/Page_Amazon Registration/inputcontinue""))",Chrome 121.0.0.0,,,08-02-2024 13:42:36,08-02-2024 13:42:36,0.425s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,08-02-2024 13:42:36,08-02-2024 13:42:37,0.241s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,08-02-2024 13:42:37,08-02-2024 13:42:37,0.007s,PASSED
+,,,,,,,
+Test Cases/account_creation/phone_number_exists001,Chrome 121.0.0.0,,,08-02-2024 13:46:01,08-02-2024 13:47:01,59.599s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,08-02-2024 13:46:01,08-02-2024 13:46:06,4.947s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,08-02-2024 13:46:06,08-02-2024 13:46:07,1.117s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,08-02-2024 13:46:07,08-02-2024 13:46:12,4.536s,PASSED
+"click(findTestObject(""Object Repository/account_creation/phone_number_exists001/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite""))",Chrome 121.0.0.0,,,08-02-2024 13:46:12,08-02-2024 13:46:13,0.896s,PASSED
+"click(findTestObject(""Object Repository/account_creation/phone_number_exists001/Page_Online Shopping site in India Shop Onl_10c5f3/b_Hello, sign in""))",Chrome 121.0.0.0,,,08-02-2024 13:46:13,08-02-2024 13:46:15,2.274s,PASSED
+"click(findTestObject(""Object Repository/account_creation/phone_number_exists001/Page_Amazon Sign In/h5_New to Amazon""))",Chrome 121.0.0.0,,,08-02-2024 13:46:15,08-02-2024 13:46:16,1.217s,PASSED
+"verifyElementText(findTestObject(""Object Repository/account_creation/phone_number_exists001/Page_Amazon Sign In/h5_New to Amazon""), ""New to Amazon?"")",Chrome 121.0.0.0,,,08-02-2024 13:46:16,08-02-2024 13:46:17,0.329s,PASSED
+"click(findTestObject(""Object Repository/account_creation/phone_number_exists001/Page_Amazon Sign In/a_Create your Amazon account""))",Chrome 121.0.0.0,,,08-02-2024 13:46:17,08-02-2024 13:46:18,1.020s,PASSED
+"setText(findTestObject(""Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/input_customerName""), ""H"")",Chrome 121.0.0.0,,,08-02-2024 13:46:18,08-02-2024 13:46:19,1.356s,PASSED
+"setText(findTestObject(""Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/input_email""), ""7779970102"")",Chrome 121.0.0.0,,,08-02-2024 13:46:19,08-02-2024 13:46:20,0.633s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/input_password""), ""MFyDUS+SCPQ="")",Chrome 121.0.0.0,,,08-02-2024 13:46:20,08-02-2024 13:46:20,0.401s,PASSED
+"click(findTestObject(""Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/inputcontinue""))",Chrome 121.0.0.0,,,08-02-2024 13:46:20,08-02-2024 13:46:26,5.760s,PASSED
+"click(findTestObject(""Object Repository/account_creation/phone_number_exists001/Page_/div_Mobile number already in use          Y_bd9461""))",Chrome 121.0.0.0,,,08-02-2024 13:46:26,08-02-2024 13:47:01,34.815s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,08-02-2024 13:47:01,08-02-2024 13:47:01,0.254s,PASSED

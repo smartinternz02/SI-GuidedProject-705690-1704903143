@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="account_creation_errors" time="521.718" tests="4" failures="1" errors="0">
+   <testsuite name="account_creation_errors" tests="4" failures="1" errors="0" time="521.718" skipped="0" timestamp="08-02-2024T13:38:19" hostname="Devil - LAPTOP-V2P5S4MK.mshome.net" id="Test Suites/account_creation_errors/account_creation_errors">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Devil\\git\\SI-GuidedProject-705690-1704903143\\Reports\\20240208_133803\\account_creation_errors\\account_creation_errors\\20240208_133804"/>
+         <property name="logFiles" value="C:\\Users\\Devil\\git\\SI-GuidedProject-705690-1704903143\\Reports\\20240208_133803\\account_creation_errors\\account_creation_errors\\20240208_133804\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Devil\\git\\SI-GuidedProject-705690-1704903143\\Reports\\20240208_133803\\account_creation_errors\\account_creation_errors\\20240208_133804\\1707379751586.png, C:\\Users\\Devil\\git\\SI-GuidedProject-705690-1704903143\\Reports\\20240208_133803\\account_creation_errors\\account_creation_errors\\20240208_133804\\1707379871363.png, C:\\Users\\Devil\\git\\SI-GuidedProject-705690-1704903143\\Reports\\20240208_133803\\account_creation_errors\\account_creation_errors\\20240208_133804\\1707380001472.png, C:\\Users\\Devil\\git\\SI-GuidedProject-705690-1704903143\\Reports\\20240208_133803\\account_creation_errors\\account_creation_errors\\20240208_133804\\1707380105853.png, C:\\Users\\Devil\\git\\SI-GuidedProject-705690-1704903143\\Reports\\20240208_133803\\account_creation_errors\\account_creation_errors\\20240208_133804\\1707380161383.png, C:\\Users\\Devil\\git\\SI-GuidedProject-705690-1704903143\\Reports\\20240208_133803\\account_creation_errors\\account_creation_errors\\20240208_133804\\1707380221000.png"/>
+         <property name="hostName" value="Devil - LAPTOP-V2P5S4MK.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="1daace17396657308d49ea8fb95cb698"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/account_creation/invalid_name" time="20.242" classname="Test Cases/account_creation/invalid_name" status="PASSED">
+         <system-out><![CDATA[08-02-2024T13:39:12 - [TEST_CASE][PASSED] - Test Cases/account_creation/invalid_name: Test Cases/account_creation/invalid_name
+
+08-02-2024T13:39:12 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:39:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-02-2024T13:39:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-02-2024T13:39:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-02-2024T13:39:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-02-2024T13:39:13 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:39:16 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:39:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-02-2024T13:39:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-02-2024T13:39:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-02-2024T13:39:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-02-2024T13:39:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-02-2024T13:39:17 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:39:23 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:39:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/invalid_name/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite")): Object: 'Object Repository/account_creation/invalid_name/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite' is clicked on
+
+08-02-2024T13:39:24 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/invalid_name/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite' is clicked on
+
+08-02-2024T13:39:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/invalid_name/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings")): Object: 'Object Repository/account_creation/invalid_name/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings' is clicked on
+
+08-02-2024T13:39:25 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/invalid_name/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings' is clicked on
+
+08-02-2024T13:39:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/account_creation/invalid_name/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings"), "Help & Settings"): Actual text and expected text of test object 'Object Repository/account_creation/invalid_name/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings' are matched.
+
+08-02-2024T13:39:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/account_creation/invalid_name/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings' are matched.
+
+08-02-2024T13:39:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/invalid_name/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign in")): Object: 'Object Repository/account_creation/invalid_name/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign in' is clicked on
+
+08-02-2024T13:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/invalid_name/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign in' is clicked on
+
+08-02-2024T13:39:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/invalid_name/Page_Amazon Sign In/h5_New to Amazon")): Object: 'Object Repository/account_creation/invalid_name/Page_Amazon Sign In/h5_New to Amazon' is clicked on
+
+08-02-2024T13:39:28 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/invalid_name/Page_Amazon Sign In/h5_New to Amazon' is clicked on
+
+08-02-2024T13:39:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/account_creation/invalid_name/Page_Amazon Sign In/h5_New to Amazon"), "New to Amazon?"): Actual text and expected text of test object 'Object Repository/account_creation/invalid_name/Page_Amazon Sign In/h5_New to Amazon' are matched.
+
+08-02-2024T13:39:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/account_creation/invalid_name/Page_Amazon Sign In/h5_New to Amazon' are matched.
+
+08-02-2024T13:39:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/invalid_name/Page_Amazon Sign In/a_Create your Amazon account")): Object: 'Object Repository/account_creation/invalid_name/Page_Amazon Sign In/a_Create your Amazon account' is clicked on
+
+08-02-2024T13:39:29 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/invalid_name/Page_Amazon Sign In/a_Create your Amazon account' is clicked on
+
+08-02-2024T13:39:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/account_creation/invalid_name/Page_Amazon Registration/input_email"), "7779970102"): Text '7779970102' is set on object 'Object Repository/account_creation/invalid_name/Page_Amazon Registration/input_email'
+
+08-02-2024T13:39:30 - [MESSAGE][PASSED] - Text '7779970102' is set on object 'Object Repository/account_creation/invalid_name/Page_Amazon Registration/input_email'
+
+08-02-2024T13:39:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/account_creation/invalid_name/Page_Amazon Registration/input_password"), "MFyDUS+SCPQ="): Text ****** has been set on object 'Object Repository/account_creation/invalid_name/Page_Amazon Registration/input_password'
+
+08-02-2024T13:39:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/account_creation/invalid_name/Page_Amazon Registration/input_password'
+
+08-02-2024T13:39:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/invalid_name/Page_Amazon Registration/inputcontinue")): Object: 'Object Repository/account_creation/invalid_name/Page_Amazon Registration/inputcontinue' is clicked on
+
+08-02-2024T13:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/invalid_name/Page_Amazon Registration/inputcontinue' is clicked on
+
+08-02-2024T13:39:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-02-2024T13:39:32 - [MESSAGE][PASSED] - Browser is closed
+
+08-02-2024T13:39:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+08-02-2024T13:39:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-02-2024T13:39:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/account_creation/invalid_phone_number" time="18.612" classname="Test Cases/account_creation/invalid_phone_number" status="PASSED">
+         <system-out><![CDATA[08-02-2024T13:41:12 - [TEST_CASE][PASSED] - Test Cases/account_creation/invalid_phone_number: Test Cases/account_creation/invalid_phone_number
+
+08-02-2024T13:41:12 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:41:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-02-2024T13:41:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-02-2024T13:41:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-02-2024T13:41:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-02-2024T13:41:12 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:41:18 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:41:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-02-2024T13:41:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-02-2024T13:41:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-02-2024T13:41:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-02-2024T13:41:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-02-2024T13:41:20 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:41:24 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:41:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/invalid_phone_number/Page_Online Shopping site in India Shop Onl_10c5f3/a_Start here")): Object: 'Object Repository/account_creation/invalid_phone_number/Page_Online Shopping site in India Shop Onl_10c5f3/a_Start here' is clicked on
+
+08-02-2024T13:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/invalid_phone_number/Page_Online Shopping site in India Shop Onl_10c5f3/a_Start here' is clicked on
+
+08-02-2024T13:41:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/account_creation/invalid_phone_number/Page_Amazon Registration/input_customerName"), "h h"): Text 'h h' is set on object 'Object Repository/account_creation/invalid_phone_number/Page_Amazon Registration/input_customerName'
+
+08-02-2024T13:41:27 - [MESSAGE][PASSED] - Text 'h h' is set on object 'Object Repository/account_creation/invalid_phone_number/Page_Amazon Registration/input_customerName'
+
+08-02-2024T13:41:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/account_creation/invalid_phone_number/Page_Amazon Registration/input_email"), "0000000000"): Text '0000000000' is set on object 'Object Repository/account_creation/invalid_phone_number/Page_Amazon Registration/input_email'
+
+08-02-2024T13:41:28 - [MESSAGE][PASSED] - Text '0000000000' is set on object 'Object Repository/account_creation/invalid_phone_number/Page_Amazon Registration/input_email'
+
+08-02-2024T13:41:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/account_creation/invalid_phone_number/Page_Amazon Registration/input_password"), "qXOhtTXZ4k1zJv9BiaSJhQ=="): Text ****** has been set on object 'Object Repository/account_creation/invalid_phone_number/Page_Amazon Registration/input_password'
+
+08-02-2024T13:41:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/account_creation/invalid_phone_number/Page_Amazon Registration/input_password'
+
+08-02-2024T13:41:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/invalid_phone_number/Page_Amazon Registration/inputcontinue")): Object: 'Object Repository/account_creation/invalid_phone_number/Page_Amazon Registration/inputcontinue' is clicked on
+
+08-02-2024T13:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/invalid_phone_number/Page_Amazon Registration/inputcontinue' is clicked on
+
+08-02-2024T13:41:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-02-2024T13:41:30 - [MESSAGE][PASSED] - Browser is closed
+
+08-02-2024T13:41:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+08-02-2024T13:41:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-02-2024T13:41:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/account_creation/no_password" time="66.56" classname="Test Cases/account_creation/no_password" status="PASSED">
+         <system-out><![CDATA[08-02-2024T13:41:30 - [TEST_CASE][PASSED] - Test Cases/account_creation/no_password: Test Cases/account_creation/no_password
+
+08-02-2024T13:41:30 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:41:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-02-2024T13:41:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-02-2024T13:41:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-02-2024T13:41:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-02-2024T13:41:31 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:41:35 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:41:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-02-2024T13:41:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-02-2024T13:41:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-02-2024T13:41:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-02-2024T13:41:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-02-2024T13:41:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:41:39 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:41:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/no_password/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite")): Object: 'Object Repository/account_creation/no_password/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite' is clicked on
+
+08-02-2024T13:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/no_password/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite' is clicked on
+
+08-02-2024T13:42:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/no_password/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings")): Object: 'Object Repository/account_creation/no_password/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings' is clicked on
+
+08-02-2024T13:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/no_password/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings' is clicked on
+
+08-02-2024T13:42:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/account_creation/no_password/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings"), "Help & Settings"): Actual text and expected text of test object 'Object Repository/account_creation/no_password/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings' are matched.
+
+08-02-2024T13:42:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/account_creation/no_password/Page_Online Shopping site in India Shop Onl_10c5f3/div_Help  Settings' are matched.
+
+08-02-2024T13:42:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/no_password/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign in")): Object: 'Object Repository/account_creation/no_password/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign in' is clicked on
+
+08-02-2024T13:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/no_password/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign in' is clicked on
+
+08-02-2024T13:42:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/no_password/Page_Amazon Sign In/h5_New to Amazon")): Object: 'Object Repository/account_creation/no_password/Page_Amazon Sign In/h5_New to Amazon' is clicked on
+
+08-02-2024T13:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/no_password/Page_Amazon Sign In/h5_New to Amazon' is clicked on
+
+08-02-2024T13:42:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/account_creation/no_password/Page_Amazon Sign In/h5_New to Amazon"), "New to Amazon?"): Actual text and expected text of test object 'Object Repository/account_creation/no_password/Page_Amazon Sign In/h5_New to Amazon' are matched.
+
+08-02-2024T13:42:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/account_creation/no_password/Page_Amazon Sign In/h5_New to Amazon' are matched.
+
+08-02-2024T13:42:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/no_password/Page_Amazon Sign In/a_Create your Amazon account")): Object: 'Object Repository/account_creation/no_password/Page_Amazon Sign In/a_Create your Amazon account' is clicked on
+
+08-02-2024T13:42:34 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/no_password/Page_Amazon Sign In/a_Create your Amazon account' is clicked on
+
+08-02-2024T13:42:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/account_creation/no_password/Page_Amazon Registration/input_customerName"), "H"): Text 'H' is set on object 'Object Repository/account_creation/no_password/Page_Amazon Registration/input_customerName'
+
+08-02-2024T13:42:35 - [MESSAGE][PASSED] - Text 'H' is set on object 'Object Repository/account_creation/no_password/Page_Amazon Registration/input_customerName'
+
+08-02-2024T13:42:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/account_creation/no_password/Page_Amazon Registration/input_email"), "7779970102"): Text '7779970102' is set on object 'Object Repository/account_creation/no_password/Page_Amazon Registration/input_email'
+
+08-02-2024T13:42:36 - [MESSAGE][PASSED] - Text '7779970102' is set on object 'Object Repository/account_creation/no_password/Page_Amazon Registration/input_email'
+
+08-02-2024T13:42:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/no_password/Page_Amazon Registration/inputcontinue")): Object: 'Object Repository/account_creation/no_password/Page_Amazon Registration/inputcontinue' is clicked on
+
+08-02-2024T13:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/no_password/Page_Amazon Registration/inputcontinue' is clicked on
+
+08-02-2024T13:42:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-02-2024T13:42:37 - [MESSAGE][PASSED] - Browser is closed
+
+08-02-2024T13:42:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+08-02-2024T13:42:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-02-2024T13:42:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/account_creation/phone_number_exists001" time="59.599" classname="Test Cases/account_creation/phone_number_exists001" status="FAILED">
+         <failure type="FAILED" message="Test Cases/account_creation/phone_number_exists001 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/account_creation/phone_number_exists001/Page_/div_Mobile number already in use          Y_bd9461'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at phone_number_exists001.run(phone_number_exists001:46)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1707379684282.run(TempTestSuite1707379684282.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/account_creation/phone_number_exists001/Page_/div_Mobile number already in use          Y_bd9461' located by 'div.a-box.a-alert.a-alert-warning.a-spacing-base > div.a-box-inner.a-alert-container' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[08-02-2024T13:46:01 - [TEST_CASE][FAILED] - Test Cases/account_creation/phone_number_exists001: Test Cases/account_creation/phone_number_exists001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/account_creation/phone_number_exists001/Page_/div_Mobile number already in use          Y_bd9461'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at phone_number_exists001.run(phone_number_exists001:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707379684282.run(TempTestSuite1707379684282.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/account_creation/phone_number_exists001/Page_/div_Mobile number already in use          Y_bd9461' located by 'div.a-box.a-alert.a-alert-warning.a-spacing-base > div.a-box-inner.a-alert-container' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+08-02-2024T13:46:01 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:46:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-02-2024T13:46:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-02-2024T13:46:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-02-2024T13:46:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-02-2024T13:46:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:46:06 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:46:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-02-2024T13:46:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-02-2024T13:46:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-02-2024T13:46:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-02-2024T13:46:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-02-2024T13:46:07 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:46:12 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T13:46:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/phone_number_exists001/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite")): Object: 'Object Repository/account_creation/phone_number_exists001/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite' is clicked on
+
+08-02-2024T13:46:13 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/phone_number_exists001/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite' is clicked on
+
+08-02-2024T13:46:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/phone_number_exists001/Page_Online Shopping site in India Shop Onl_10c5f3/b_Hello, sign in")): Object: 'Object Repository/account_creation/phone_number_exists001/Page_Online Shopping site in India Shop Onl_10c5f3/b_Hello, sign in' is clicked on
+
+08-02-2024T13:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/phone_number_exists001/Page_Online Shopping site in India Shop Onl_10c5f3/b_Hello, sign in' is clicked on
+
+08-02-2024T13:46:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/phone_number_exists001/Page_Amazon Sign In/h5_New to Amazon")): Object: 'Object Repository/account_creation/phone_number_exists001/Page_Amazon Sign In/h5_New to Amazon' is clicked on
+
+08-02-2024T13:46:16 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/phone_number_exists001/Page_Amazon Sign In/h5_New to Amazon' is clicked on
+
+08-02-2024T13:46:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/account_creation/phone_number_exists001/Page_Amazon Sign In/h5_New to Amazon"), "New to Amazon?"): Actual text and expected text of test object 'Object Repository/account_creation/phone_number_exists001/Page_Amazon Sign In/h5_New to Amazon' are matched.
+
+08-02-2024T13:46:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/account_creation/phone_number_exists001/Page_Amazon Sign In/h5_New to Amazon' are matched.
+
+08-02-2024T13:46:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/phone_number_exists001/Page_Amazon Sign In/a_Create your Amazon account")): Object: 'Object Repository/account_creation/phone_number_exists001/Page_Amazon Sign In/a_Create your Amazon account' is clicked on
+
+08-02-2024T13:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/phone_number_exists001/Page_Amazon Sign In/a_Create your Amazon account' is clicked on
+
+08-02-2024T13:46:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/input_customerName"), "H"): Text 'H' is set on object 'Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/input_customerName'
+
+08-02-2024T13:46:19 - [MESSAGE][PASSED] - Text 'H' is set on object 'Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/input_customerName'
+
+08-02-2024T13:46:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/input_email"), "7779970102"): Text '7779970102' is set on object 'Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/input_email'
+
+08-02-2024T13:46:20 - [MESSAGE][PASSED] - Text '7779970102' is set on object 'Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/input_email'
+
+08-02-2024T13:46:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/input_password"), "MFyDUS+SCPQ="): Text ****** has been set on object 'Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/input_password'
+
+08-02-2024T13:46:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/input_password'
+
+08-02-2024T13:46:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/inputcontinue")): Object: 'Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/inputcontinue' is clicked on
+
+08-02-2024T13:46:26 - [MESSAGE][PASSED] - Object: 'Object Repository/account_creation/phone_number_exists001/Page_Amazon Registration/inputcontinue' is clicked on
+
+08-02-2024T13:46:26 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/account_creation/phone_number_exists001/Page_/div_Mobile number already in use          Y_bd9461")): Unable to click on object 'Object Repository/account_creation/phone_number_exists001/Page_/div_Mobile number already in use          Y_bd9461' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/account_creation/phone_number_exists001/Page_/div_Mobile number already in use          Y_bd9461'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at phone_number_exists001.run(phone_number_exists001:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707379684282.run(TempTestSuite1707379684282.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/account_creation/phone_number_exists001/Page_/div_Mobile number already in use          Y_bd9461' located by 'div.a-box.a-alert.a-alert-warning.a-spacing-base > div.a-box-inner.a-alert-container' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1707205781292.run(Script1707205781292.groovy:46)
+	... 18 more
+)
+
+08-02-2024T13:46:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: div.a-box.a-alert.a-alert-warning.a-spacing-base > div.a-box-inner.a-alert-container'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-02-2024T13:46:57 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/account_creation/phone_number_exists001/Page_/div_Mobile number already in use          Y_bd9461'. Try using Self-healing.
+
+08-02-2024T13:46:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='authportal-main-section']/div[2]/div/div/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-02-2024T13:46:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='authportal-main-section']/div[2]/div/div/div/div'.
+
+08-02-2024T13:46:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div/div[2]/div/div/div/div'.
+
+08-02-2024T13:46:59 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = 'Mobile number already in use
+    
+      You indicated you are a new customer, but an account already exists with the mobile number +917779970102
+    
+  ' or . = 'Mobile number already in use
+    
+      You indicated you are a new customer, but an account already exists with the mobile number +917779970102
+    
+  ')]'.
+
+08-02-2024T13:46:59 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='authportal-main-section']/div[2]/div/div/div/div'.
+
+08-02-2024T13:46:59 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div/div[2]/div/div/div/div'.
+
+08-02-2024T13:46:59 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = 'Mobile number already in use
+    
+      You indicated you are a new customer, but an account already exists with the mobile number +917779970102
+    
+  ' or . = 'Mobile number already in use
+    
+      You indicated you are a new customer, but an account already exists with the mobile number +917779970102
+    
+  ')]'.
+
+08-02-2024T13:47:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Mobile number already in use
+    
+      You indicated you are a new customer, but an account already exists with the mobile number +917779970102
+    
+  ' or . = 'Mobile number already in use
+    
+      You indicated you are a new customer, but an account already exists with the mobile number +917779970102
+    
+  ')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-02-2024T13:47:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/account_creation/phone_number_exists001/Page_/div_Mobile number already in use          Y_bd9461' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/account_creation/phone_number_exists001/Page_/div_Mobile number already in use          Y_bd9461'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at phone_number_exists001.run(phone_number_exists001:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707379684282.run(TempTestSuite1707379684282.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/account_creation/phone_number_exists001/Page_/div_Mobile number already in use          Y_bd9461' located by 'div.a-box.a-alert.a-alert-warning.a-spacing-base > div.a-box-inner.a-alert-container' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1707205781292.run(Script1707205781292.groovy:46)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\Devil\\git\\SI-GuidedProject-705690-1704903143\\Reports\\20240208_133803\\account_creation_errors\\account_creation_errors\\20240208_133804\\1707380221000.png]]
+
+08-02-2024T13:47:01 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+08-02-2024T13:47:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-02-2024T13:47:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[08-02-2024T13:46:01 - [TEST_CASE][FAILED] - Test Cases/account_creation/phone_number_exists001: Test Cases/account_creation/phone_number_exists001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/account_creation/phone_number_exists001/Page_/div_Mobile number already in use          Y_bd9461'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at phone_number_exists001.run(phone_number_exists001:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707379684282.run(TempTestSuite1707379684282.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/account_creation/phone_number_exists001/Page_/div_Mobile number already in use          Y_bd9461' located by 'div.a-box.a-alert.a-alert-warning.a-spacing-base > div.a-box-inner.a-alert-container' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-02-2024T13:38:19 - [TEST_SUITE][FAILED] - account_creation_errors: Test Cases/account_creation/invalid_name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/account_creation/invalid_name/Page_Amazon Sign In/h5_New to Amazon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at invalid_name.run(invalid_name:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707379684282.run(TempTestSuite1707379684282.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/account_creation/invalid_name/Page_Amazon Sign In/h5_New to Amazon' located by '//div[@id='authportal-main-section']/div[2]/div[2]/div[2]/h5' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[08-02-2024T13:38:19 - [TEST_SUITE][FAILED] - account_creation_errors: Test Cases/account_creation/invalid_name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/account_creation/invalid_name/Page_Amazon Sign In/h5_New to Amazon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at invalid_name.run(invalid_name:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707379684282.run(TempTestSuite1707379684282.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/account_creation/invalid_name/Page_Amazon Sign In/h5_New to Amazon' located by '//div[@id='authportal-main-section']/div[2]/div[2]/div[2]/h5' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>
