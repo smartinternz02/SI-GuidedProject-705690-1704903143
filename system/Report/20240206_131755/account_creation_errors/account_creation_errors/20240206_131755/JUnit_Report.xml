@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="account_creation_errors" time="0.576" tests="4" failures="0" errors="4">
+   <testsuite name="account_creation_errors" tests="4" failures="0" errors="4" time="0.576" skipped="0" timestamp="06-02-2024T13:18:10" hostname="Devil - LAPTOP-V2P5S4MK.mshome.net" id="Test Suites/account_creation_errors/account_creation_errors">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Devil\\git\\SI-GuidedProject-705690-1704903143\\Reports\\20240206_131755\\account_creation_errors\\account_creation_errors\\20240206_131755"/>
+         <property name="logFiles" value="C:\\Users\\Devil\\git\\SI-GuidedProject-705690-1704903143\\Reports\\20240206_131755\\account_creation_errors\\account_creation_errors\\20240206_131755\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Devil - LAPTOP-V2P5S4MK.mshome.net"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+      </properties>
+      <testcase name="Test Cases/account_creation/invalid_name" time="0.006" classname="Test Cases/account_creation/invalid_name" status="ERROR">
+         <error type="ERROR" message="Test Cases/account_creation/invalid_name has ERROR(s).&#xa;Reason:&#xa;java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[06-02-2024T13:18:10 - [TEST_CASE][ERROR] - Test Cases/account_creation/invalid_name: Test Cases/account_creation/invalid_name has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[06-02-2024T13:18:10 - [TEST_CASE][ERROR] - Test Cases/account_creation/invalid_name: Test Cases/account_creation/invalid_name has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/account_creation/invalid_phone_number" time="0.0" classname="Test Cases/account_creation/invalid_phone_number" status="ERROR">
+         <error type="ERROR" message="Test Cases/account_creation/invalid_phone_number has ERROR(s).&#xa;Reason:&#xa;java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[06-02-2024T13:18:10 - [TEST_CASE][ERROR] - Test Cases/account_creation/invalid_phone_number: Test Cases/account_creation/invalid_phone_number has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[06-02-2024T13:18:10 - [TEST_CASE][ERROR] - Test Cases/account_creation/invalid_phone_number: Test Cases/account_creation/invalid_phone_number has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/account_creation/no_password" time="0.005" classname="Test Cases/account_creation/no_password" status="ERROR">
+         <error type="ERROR" message="Test Cases/account_creation/no_password has ERROR(s).&#xa;Reason:&#xa;java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[06-02-2024T13:18:10 - [TEST_CASE][ERROR] - Test Cases/account_creation/no_password: Test Cases/account_creation/no_password has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[06-02-2024T13:18:10 - [TEST_CASE][ERROR] - Test Cases/account_creation/no_password: Test Cases/account_creation/no_password has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/account_creation/phone_number_exists001" time="0.015" classname="Test Cases/account_creation/phone_number_exists001" status="ERROR">
+         <error type="ERROR" message="Test Cases/account_creation/phone_number_exists001 has ERROR(s).&#xa;Reason:&#xa;java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[06-02-2024T13:18:10 - [TEST_CASE][ERROR] - Test Cases/account_creation/phone_number_exists001: Test Cases/account_creation/phone_number_exists001 has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[06-02-2024T13:18:10 - [TEST_CASE][ERROR] - Test Cases/account_creation/phone_number_exists001: Test Cases/account_creation/phone_number_exists001 has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-02-2024T13:18:10 - [TEST_SUITE][ERROR] - account_creation_errors: Test Cases/account_creation/invalid_name has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+      <system-err><![CDATA[06-02-2024T13:18:10 - [TEST_SUITE][ERROR] - account_creation_errors: Test Cases/account_creation/invalid_name has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+   </testsuite>
+</testsuites>
